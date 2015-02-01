@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
@@ -9,7 +9,83 @@
         <view contentMode="scaleToFill" id="iN0-l3-epB">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbe-rE-6vZ">
+                    <rect key="frame" x="285" y="285" width="30" height="30"/>
+                    <state key="normal" title="な">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OXj-JF-Smr">
+                    <rect key="frame" x="285" y="345" width="30" height="30"/>
+                    <state key="normal" title="や">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9yA-0K-BqW">
+                    <rect key="frame" x="285" y="225" width="30" height="30"/>
+                    <state key="normal" title="か">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U8b-nn-8tj">
+                    <rect key="frame" x="345" y="285" width="30" height="30"/>
+                    <state key="normal" title="は">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VdE-TZ-4Vt">
+                    <rect key="frame" x="225" y="285" width="30" height="30"/>
+                    <state key="normal" title="た">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X6w-f0-Qc4">
+                    <rect key="frame" x="225" y="225" width="30" height="30"/>
+                    <state key="normal" title="あ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnT-3R-WB1">
+                    <rect key="frame" x="345" y="225" width="30" height="30"/>
+                    <state key="normal" title="さ">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VH1-wu-enf">
+                    <rect key="frame" x="345" y="345" width="30" height="30"/>
+                    <state key="normal" title="ら">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L1g-I0-6xT">
+                    <rect key="frame" x="225" y="345" width="30" height="30"/>
+                    <state key="normal" title="ま">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="9yA-0K-BqW" firstAttribute="leading" secondItem="X6w-f0-Qc4" secondAttribute="trailing" constant="30" id="1KC-vd-tXd"/>
+                <constraint firstItem="OXj-JF-Smr" firstAttribute="leading" secondItem="L1g-I0-6xT" secondAttribute="trailing" constant="30" id="6X7-Bm-5EN"/>
+                <constraint firstItem="VH1-wu-enf" firstAttribute="top" secondItem="U8b-nn-8tj" secondAttribute="bottom" constant="30" id="9Ou-ny-Zzr"/>
+                <constraint firstItem="L1g-I0-6xT" firstAttribute="top" secondItem="VdE-TZ-4Vt" secondAttribute="bottom" constant="30" id="A6m-lh-Tev"/>
+                <constraint firstItem="U8b-nn-8tj" firstAttribute="leading" secondItem="lbe-rE-6vZ" secondAttribute="trailing" constant="30" id="Fa1-h3-z0V"/>
+                <constraint firstAttribute="centerX" secondItem="lbe-rE-6vZ" secondAttribute="centerX" id="Fjg-wX-FIw"/>
+                <constraint firstItem="U8b-nn-8tj" firstAttribute="top" secondItem="cnT-3R-WB1" secondAttribute="bottom" constant="30" id="Igf-IG-jLQ"/>
+                <constraint firstItem="OXj-JF-Smr" firstAttribute="top" secondItem="lbe-rE-6vZ" secondAttribute="bottom" constant="30" id="JFY-tr-YX7"/>
+                <constraint firstItem="lbe-rE-6vZ" firstAttribute="leading" secondItem="VdE-TZ-4Vt" secondAttribute="trailing" constant="30" id="MJN-QD-CzD"/>
+                <constraint firstItem="VH1-wu-enf" firstAttribute="leading" secondItem="OXj-JF-Smr" secondAttribute="trailing" constant="30" id="U3b-cB-UFj"/>
+                <constraint firstAttribute="centerX" secondItem="9yA-0K-BqW" secondAttribute="centerX" id="V6d-TF-Clp"/>
+                <constraint firstAttribute="centerY" secondItem="U8b-nn-8tj" secondAttribute="centerY" id="c22-xy-cH5"/>
+                <constraint firstItem="cnT-3R-WB1" firstAttribute="leading" secondItem="9yA-0K-BqW" secondAttribute="trailing" constant="30" id="h8d-Su-9tx"/>
+                <constraint firstItem="VdE-TZ-4Vt" firstAttribute="top" secondItem="X6w-f0-Qc4" secondAttribute="bottom" constant="30" id="huX-6j-7HQ"/>
+                <constraint firstItem="lbe-rE-6vZ" firstAttribute="top" secondItem="9yA-0K-BqW" secondAttribute="bottom" constant="30" id="lsn-9y-OdR"/>
+                <constraint firstAttribute="centerY" secondItem="lbe-rE-6vZ" secondAttribute="centerY" id="osu-9U-KNp"/>
+                <constraint firstAttribute="centerX" secondItem="OXj-JF-Smr" secondAttribute="centerX" id="tc3-Nf-v7M"/>
+                <constraint firstAttribute="centerY" secondItem="VdE-TZ-4Vt" secondAttribute="centerY" id="ygQ-Gd-KYr"/>
+            </constraints>
         </view>
     </objects>
 </document>
