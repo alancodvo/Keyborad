@@ -15,6 +15,7 @@
 		E7E34B4C1A7E83C6003813EE /* KeyboradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E34B4B1A7E83C6003813EE /* KeyboradTests.swift */; };
 		E7E34B5E1A7E84D8003813EE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */; };
 		E7E34B611A7E84D8003813EE /* Excite.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E7E34B591A7E84D8003813EE /* Excite.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E7E34B671A7E856E003813EE /* KeyboradView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E34B661A7E856E003813EE /* KeyboradView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		E7E34B591A7E84D8003813EE /* Excite.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Excite.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E34B5C1A7E84D8003813EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		E7E34B661A7E856E003813EE /* KeyboradView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyboradView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 			children = (
 				E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */,
 				E7E34B5B1A7E84D8003813EE /* Supporting Files */,
+				E7E34B661A7E856E003813EE /* KeyboradView.xib */,
 			);
 			path = Excite;
 			sourceTree = "<group>";
@@ -284,6 +287,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7E34B671A7E856E003813EE /* KeyboradView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
