@@ -13,6 +13,8 @@
 		E7E34B3D1A7E83C5003813EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E34B3C1A7E83C5003813EE /* Images.xcassets */; };
 		E7E34B401A7E83C5003813EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E34B3E1A7E83C5003813EE /* LaunchScreen.xib */; };
 		E7E34B4C1A7E83C6003813EE /* KeyboradTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E34B4B1A7E83C6003813EE /* KeyboradTests.swift */; };
+		E7E34B5E1A7E84D8003813EE /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */; };
+		E7E34B611A7E84D8003813EE /* Excite.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = E7E34B591A7E84D8003813EE /* Excite.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -23,7 +25,28 @@
 			remoteGlobalIDString = E7E34B2F1A7E83C5003813EE;
 			remoteInfo = Keyborad;
 		};
+		E7E34B5F1A7E84D8003813EE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E7E34B281A7E83C5003813EE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E7E34B581A7E84D8003813EE;
+			remoteInfo = Excite;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E7E34B651A7E84D8003813EE /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				E7E34B611A7E84D8003813EE /* Excite.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		E7E34B301A7E83C5003813EE /* Keyborad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyborad.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -36,6 +59,9 @@
 		E7E34B451A7E83C6003813EE /* KeyboradTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboradTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E34B4A1A7E83C6003813EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E7E34B4B1A7E83C6003813EE /* KeyboradTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboradTests.swift; sourceTree = "<group>"; };
+		E7E34B591A7E84D8003813EE /* Excite.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Excite.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7E34B5C1A7E84D8003813EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +79,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7E34B561A7E84D8003813EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -61,6 +94,7 @@
 			children = (
 				E7E34B321A7E83C5003813EE /* Keyborad */,
 				E7E34B481A7E83C6003813EE /* KeyboradTests */,
+				E7E34B5A1A7E84D8003813EE /* Excite */,
 				E7E34B311A7E83C5003813EE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -70,6 +104,7 @@
 			children = (
 				E7E34B301A7E83C5003813EE /* Keyborad.app */,
 				E7E34B451A7E83C6003813EE /* KeyboradTests.xctest */,
+				E7E34B591A7E84D8003813EE /* Excite.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,6 +147,23 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E7E34B5A1A7E84D8003813EE /* Excite */ = {
+			isa = PBXGroup;
+			children = (
+				E7E34B5D1A7E84D8003813EE /* KeyboardViewController.swift */,
+				E7E34B5B1A7E84D8003813EE /* Supporting Files */,
+			);
+			path = Excite;
+			sourceTree = "<group>";
+		};
+		E7E34B5B1A7E84D8003813EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E7E34B5C1A7E84D8003813EE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -122,10 +174,12 @@
 				E7E34B2C1A7E83C5003813EE /* Sources */,
 				E7E34B2D1A7E83C5003813EE /* Frameworks */,
 				E7E34B2E1A7E83C5003813EE /* Resources */,
+				E7E34B651A7E84D8003813EE /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E7E34B601A7E84D8003813EE /* PBXTargetDependency */,
 			);
 			name = Keyborad;
 			productName = Keyborad;
@@ -150,6 +204,23 @@
 			productReference = E7E34B451A7E83C6003813EE /* KeyboradTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E7E34B581A7E84D8003813EE /* Excite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7E34B621A7E84D8003813EE /* Build configuration list for PBXNativeTarget "Excite" */;
+			buildPhases = (
+				E7E34B551A7E84D8003813EE /* Sources */,
+				E7E34B561A7E84D8003813EE /* Frameworks */,
+				E7E34B571A7E84D8003813EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Excite;
+			productName = Excite;
+			productReference = E7E34B591A7E84D8003813EE /* Excite.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -165,6 +236,9 @@
 					E7E34B441A7E83C6003813EE = {
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = E7E34B2F1A7E83C5003813EE;
+					};
+					E7E34B581A7E84D8003813EE = {
+						CreatedOnToolsVersion = 6.1.1;
 					};
 				};
 			};
@@ -183,6 +257,7 @@
 			targets = (
 				E7E34B2F1A7E83C5003813EE /* Keyborad */,
 				E7E34B441A7E83C6003813EE /* KeyboradTests */,
+				E7E34B581A7E84D8003813EE /* Excite */,
 			);
 		};
 /* End PBXProject section */
@@ -199,6 +274,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		E7E34B431A7E83C6003813EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7E34B571A7E84D8003813EE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -225,6 +307,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E7E34B551A7E84D8003813EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7E34B5E1A7E84D8003813EE /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -232,6 +322,11 @@
 			isa = PBXTargetDependency;
 			target = E7E34B2F1A7E83C5003813EE /* Keyborad */;
 			targetProxy = E7E34B461A7E83C6003813EE /* PBXContainerItemProxy */;
+		};
+		E7E34B601A7E84D8003813EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E7E34B581A7E84D8003813EE /* Excite */;
+			targetProxy = E7E34B5F1A7E84D8003813EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -336,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Keyborad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -346,6 +442,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = Keyborad/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -386,6 +483,30 @@
 			};
 			name = Release;
 		};
+		E7E34B631A7E84D8003813EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Excite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E7E34B641A7E84D8003813EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = Excite/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -411,6 +532,14 @@
 			buildConfigurations = (
 				E7E34B531A7E83C6003813EE /* Debug */,
 				E7E34B541A7E83C6003813EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E7E34B621A7E84D8003813EE /* Build configuration list for PBXNativeTarget "Excite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E7E34B631A7E84D8003813EE /* Debug */,
+				E7E34B641A7E84D8003813EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
